@@ -1,0 +1,94 @@
+edid-decode (0.1~git20220315.cb74358c2896-1.1deepin1) unstable; urgency=medium
+
+  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+
+ -- lichenggang <lichenggang@uniontech.com>  Sat, 12 Sep 2026 18:20:00 +0800
+
+edid-decode (0.1~git20220315.cb74358c2896-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * debian/rules: Use UTC date to ensure reproducible builds regardless of
+    timezone. (Closes: #1020877)
+
+ -- Vagrant Cascadian <vagrant@debian.org>  Thu, 07 Dec 2023 12:32:06 -0800
+
+edid-decode (0.1~git20220315.cb74358c2896-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Wed, 30 Mar 2022 11:29:27 +0200
+
+edid-decode (0.1~git20201230.95d81c9-2) unstable; urgency=medium
+
+  * Bump debhelper from old 11 to 13.
+  * Set debhelper-compat version in Build-Depends.
+  * Set Standards-Version to 4.5.1.
+  * Switch to the machine-readable copyright file format.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Fri, 01 Jan 2021 23:37:47 +0100
+
+edid-decode (0.1~git20201230.95d81c9-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update the upstream URL.
+  * Pass the package version to the Makefile.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Fri, 01 Jan 2021 23:30:26 +0100
+
+edid-decode (0.1~git20191209.e719d04-1) unstable; urgency=medium
+
+  * New upstream snapshot (Closes: #839150):
+    - Full EDID 1.3 support (Closes: #844313).
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 23 Dec 2019 21:07:44 +0100
+
+edid-decode (0.1~git20180813.b2da1516-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * Drop the patch reimplemented upstream.
+  * Actually add Vcs-*.
+  * Use debhelper 11.
+  * Bump Standards-Version (no changes).
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 14 Aug 2018 16:04:46 +0200
+
+edid-decode (0.1~git20160708.c72db881-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * Add Vcs-* fields.
+  * Use a better synopsis in the description field.
+  * Use debhelper 10.
+  * Add gbp.conf.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Tue, 13 Dec 2016 16:43:56 +0100
+
+edid-decode (0.1~git20140128.afcf2a2e-1) unstable; urgency=medium
+
+  * First upload to Debian.
+  * New upstream snapshot.
+  * New maintainer.
+  * Update debian/rules to use the debhelper short form.
+  * Patch Makefile to use proper flags.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Mon, 29 Jun 2015 13:27:23 +0200
+
+edid-decode (0.1~git20100205.26c03c8e-0ubuntu3) natty; urgency=low
+
+  * The package depends on debhelper >= 7; hence, set debian/compat to "7"
+  * Call dh_installchangelogs (LP: #684954)
+  * Remove the Uploaders field, it's not needed
+
+ -- Lorenzo De Liso <blackz@ubuntu.com>  Sat, 12 Mar 2011 21:46:48 +0100
+
+edid-decode (0.1~git20100205.26c03c8e-0ubuntu2) natty; urgency=low
+
+  * Disable quilt magic for now as no patches are present. Fix FTBFS
+
+ -- Bhavani Shankar <bhavi@ubuntu.com>  Sun, 21 Nov 2010 12:58:32 +0530
+
+edid-decode (0.1~git20100205.26c03c8e-0ubuntu1) natty; urgency=low
+
+  * Initial release.  Snapshot of edid-decode taken today from:
+    http://cgit.freedesktop.org/xorg/app/edid-decode/
+
+ -- Bryce Harrington <bryce@ubuntu.com>  Tue, 16 Nov 2010 17:30:46 -0800
