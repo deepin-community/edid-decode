@@ -1,3 +1,9 @@
+edid-decode (0.1~git20220315.cb74358c2896-1.1deepin1) unstable; urgency=medium
+
+  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+
+ -- lichenggang <lichenggang@uniontech.com>  Sat, 12 Sep 2026 18:20:00 +0800
+
 edid-decode (0.1~git20220315.cb74358c2896-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.
